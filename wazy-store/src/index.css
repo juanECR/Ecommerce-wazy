@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+@theme {
+  --color-wazy-dark: #09090b;
+  --color-wazy-light: #fafafa;
+  --color-wazy-accent: #2563eb; /* Un azul vibrante que inspira confianza */
+  
+  --font-sans: 'Inter', system-ui, sans-serif;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-wazy-light);
+    color: var(--color-wazy-dark);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+  }
+}
