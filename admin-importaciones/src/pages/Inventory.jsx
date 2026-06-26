@@ -99,7 +99,7 @@ export default function Inventory() {
                                                 {/* Mostrar imagen si existe, sino un ícono por defecto */}
                                                 {prod.cover_image ? (
                                                     <img 
-                                                        src={`http://127.0.0.1:8000/storage/${prod.cover_image}`} 
+                                                        src={`backend.wazy.cwefy.com/storage/${prod.cover_image}`} 
                                                         alt={prod.name} 
                                                         className="w-12 h-12 object-cover rounded-lg border border-gray-200"
                                                     />
